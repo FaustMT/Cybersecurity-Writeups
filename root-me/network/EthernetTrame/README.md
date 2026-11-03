@@ -1,11 +1,8 @@
 # Ethernet - Trame
 
 - **Category:** Network (Root-Me)
-
 - **Difficulty:** Easy
-
 - **Objective:** Extract and analyze raw hexadecimal Ethernet frame data using native Linux CLI tools to retrieve hidden authentication credentials.
-
 
 ## 1. Traffic Analysis
 Instead of using GUI tools, the raw hexadecimal dump provided by the challenge is analyzed directly from the terminal to convert hex bytes into a readable binary stream.
