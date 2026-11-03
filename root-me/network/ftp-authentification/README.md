@@ -2,7 +2,7 @@
 
 - **Category:** Network (Root-Me)
 - **Difficulty:** Easy
-- **Objective:** Find the user password in this TELNET session capture.
+- **Objective:** An authenticated file exchange achieved through FTP. Recover the password used by the user.
 
 ## 1. Traffic Analysis
 After opening the `.pcap` capture file in Wireshark, the `ftp` display filter is applied to isolate unencrypted traffic.
