@@ -14,5 +14,5 @@ Analyzing the captured stream reveals the interactive login process:
 - **Flag / Password:** `user`
 
 ## 3. Key Takeaways & Remediation
-- **Vulnerability:** Telnet is an unencrypted legacy protocol. All keystrokes, commands, and credentials are sent in cleartext across the network, making them trivially intercepted via sniffing.
+- **Vulnerability:** Telnet is an unencrypted protocol. All keystrokes and commands are sent in cleartext across the network, making them trivially intercepted via sniffing.
 - **Remediation:** Replace Telnet entirely with **SSH** (Secure Shell), which encrypts the entire communication session end-to-end.
